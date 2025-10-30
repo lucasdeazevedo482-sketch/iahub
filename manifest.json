@@ -1,11 +1,11 @@
 {
-  "name": "IAHub - Diretório de IAs",
+  "name": "IAHub",
   "short_name": "IAHub",
   "description": "Central de Inteligências Artificiais com categorias, favoritos e chat integrado.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#4a90e2",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -19,4 +19,3 @@
     }
   ]
 }
-
