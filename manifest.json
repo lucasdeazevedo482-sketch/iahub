@@ -4,8 +4,9 @@
   "description": "Central de Inteligências Artificiais com categorias, favoritos e chat integrado.",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "background_color": "#FFFFFF",
   "theme_color": "#000000",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icons/icon-192.png",
