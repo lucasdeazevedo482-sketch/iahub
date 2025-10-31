@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IAHub</title>
+
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#000000" />
+  </head>
+  <body style="margin:0;overflow:hidden;">
+    <iframe 
+      src="https://iahub-aa0d144f.base44.app" 
+      style="width:100vw;height:100vh;border:none;"
+      title="IAHub">
+    </iframe>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js');
+      }
+    </script>
+  </body>
+</html>
